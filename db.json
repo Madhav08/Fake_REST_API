@@ -1,13 +1,87 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed hard Drive on work station 005",
+      "attention": false,
+      "date": "12/11/2020, 1:49:17 PM",
+      "tech": "Sam Smith"
+    },
+    {
+      "id": 2,
+      "message": "WorkStation 007 not posting",
+      "attention": true,
+      "date": "12/19/2020, 09:49:17 PM",
+      "tech": "John Doe"
+    },
+    {
+      "id": 3,
+      "message": "Changed memory on workstation 2001",
+      "attention": false,
+      "date": "12/21/2020, 06:49:17 PM",
+      "tech": "Sara Wiliams"
+    },
+    {
+      "message": "Update New Memory workstation on 2366",
+      "tech": "Sara Williams",
+      "attention": false,
+      "date": "12/27/2020, 11:49:17 PM",
+      "id": 4
+    },
+    {
+      "message": "Maintenance of workstation 0021",
+      "tech": "Sara Williams",
+      "attention": true,
+      "date": "12/27/2020, 11:51:36 PM",
+      "id": 5
+    },
+    {
+      "message": "Removed memory on workstation 5544",
+      "tech": "Adam Smith",
+      "attention": true,
+      "date": "12/27/2020, 11:53:00 PM",
+      "id": 6
+    },
+    {
+      "message": "Update Workstation 8811",
+      "tech": "Lopez Ochoa",
+      "attention": false,
+      "date": "12/27/2020, 11:54:32 PM",
+      "id": 7
+    },
+    {
+      "message": "Update workstation 4411",
+      "tech": "Adam Smith",
+      "attention": false,
+      "date": "Sun Dec 27 2020 23:54:51 GMT+0530 (India Standard Time)",
+      "id": 8
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe"
+    },
+    {
+      "id": 2,
+      "firstname": "Sara",
+      "lastname": "Williams"
+    },
+    {
+      "id": 3,
+      "firstname": "Sam",
+      "lastname": "Smith"
+    },
+    {
+      "firstname": "Lopez",
+      "lastname": "Ochoa",
+      "id": 4
+    },
+    {
+      "firstname": "Adam",
+      "lastname": "Smith",
+      "id": 5
+    }
+  ]
 }
